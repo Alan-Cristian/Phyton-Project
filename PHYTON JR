@@ -1,0 +1,51 @@
+1. Manipulação de Listas e Strings
+# Exemplo de manipulação de lista
+numeros = [1, 2, 3, 4, 5]
+quadrados = [x ** 2 for x in numeros]
+print(quadrados)
+
+# Exemplo de manipulação de string
+mensagem = "Olá, Mundo!"
+partes = mensagem.split(", ")
+print(partes)
+
+Estruturas Condicionais e Loops
+# Exemplo de estrutura condicional
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+
+# Exemplo de loop
+for i in range(5):
+    print(i)
+
+
+Funções em Python
+# Exemplo de função
+def saudacao(nome):
+    return f"Olá, {nome}!"
+
+# Chamada de função
+mensagem = saudacao("Alice")
+print(mensagem)
+
+
+
+Trabalhando com Dicionários
+# Exemplo de dicionário
+aluno = {"nome": "Carlos", "idade": 20, "curso": "Ciência da Computação"}
+print(aluno["nome"])
+
+
+ Manipulação de Arquivos
+# Exemplo de leitura de arquivo
+with open("arquivo.txt", "r") as arquivo:
+    conteudo = arquivo.read()
+    print(conteudo)
+
+# Exemplo de escrita em arquivo
+with open("novo_arquivo.txt", "w") as novo_arquivo:
+    novo_arquivo.write("Conteúdo do novo arquivo.")
+
